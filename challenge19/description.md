@@ -30,4 +30,4 @@ const money = 9
 ### Output:
 ```javascript
 [1, 1, 1, 48]
-``
+```
