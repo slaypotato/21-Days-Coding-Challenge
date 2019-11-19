@@ -1,5 +1,5 @@
 const dynamicPricing = (numberOfPeople, distanceTraveled) => {
-  // Code here!
+
   var ticketPrice = 1.00;
   ticketPrice += (distanceTraveled * 0.25);
   if (numberOfPeople >= 30) {
