@@ -1,5 +1,5 @@
 const judgeVegetable = (vegetables, metric) => {
-  // Code here!
+
   var bestSubmitter = 'none';
   var bestValue = 0;
   for (var veggie of vegetables){
