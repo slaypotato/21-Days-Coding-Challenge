@@ -1,5 +1,5 @@
 const finalPosition = (moves) => {
-  // Code here!
+
   var direction = {
     'north':[0,1],
     'south':[0,-1],
@@ -17,7 +17,6 @@ const finalPosition = (moves) => {
   console.log(end);
   return end;
 }
-
 
 /*
 
