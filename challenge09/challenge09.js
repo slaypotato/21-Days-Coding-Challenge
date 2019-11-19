@@ -1,5 +1,5 @@
 const carPassing = (cars, speed) => {
-  // Code here!
+
   var time = Date.now();
   cars.push({'time':time,'speed':speed});
   return cars;
@@ -48,4 +48,4 @@ Output:
       }
     ]
 	
-	*/
+*/
