@@ -1,8 +1,7 @@
 const busTimes = buses => {
-  // Code here!
+
   result = {};
   for(var bus in buses){
-    //console.log(buses[bus]['distance']/buses[bus]['speed']);
     result[bus] =  buses[bus]['distance']/buses[bus]['speed'];
   }
   return result;
