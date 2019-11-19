@@ -1,5 +1,5 @@
 const checkAir = function (samples, threshold) {
-  // Code here!
+
   var pollutedSample = 0;
   for (var sample of samples){
     if (sample == 'dirty'){
