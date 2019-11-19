@@ -1,5 +1,5 @@
 const termTopics = (interviews) => {
-  // Code here!
+  
   var result = [0,0,0];
   
   for (interview of interviews){
@@ -7,13 +7,12 @@ const termTopics = (interviews) => {
       case 'smart city': result[0] += 1;
                          break;
       case 'arts funding': result[1] += 1;
-                         break;
+                           break;
       case 'transportation': result[2] += 1;
-                         break;
+                             break;
     }
   }
   return result;
-  // Remember to return an array!
 }
 
 /*
