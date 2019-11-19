@@ -1,7 +1,5 @@
-
-// Remember, the possible candidates are: Tim, Sally, and Beth (in that order)
 const castVote = (name, votes) => {
-  // Code here!
+ 
   switch(name){
     case 'Tim': votes[0]++;
     break;
@@ -10,10 +8,8 @@ const castVote = (name, votes) => {
     case 'Beth': votes[2]++;
     break;
     default: return votes;
-  }
-  
+  } 
   return votes;
-  // Remember to return a value!
 }
 
 /*
