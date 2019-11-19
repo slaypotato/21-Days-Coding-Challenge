@@ -1,28 +1,21 @@
-// Tip: Work on one of these functions at a time.
-
 const lightsOn = function(lights) {
-  // Code here!
+
   for (var light of lights){
-    //console.log(light['id']+": "+light['on']);
     light['on'] = true;
-    //console.log('changed to: '+light['id']+": "+light['on']);
   }
   return lights;
 }
 
 const lightsOff = function(lights) {
-  // Code here!
+	
   for (var light of lights){
-    //console.log(light['id']+": "+light['on']);
     light['on'] = false;
-    //console.log('changed to: '+light['id']+": "+light['on']);
   }
   return lights;
 }
 
 const toggleLights = function(lights, lightsAreOn) {
-  // Code here!
-  //console.log("current "+lightsAreOn);
+
   if (!lightsAreOn){
     lightsOn(lights);
   } else{
