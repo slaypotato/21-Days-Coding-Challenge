@@ -13,10 +13,7 @@ const pumpkinSpice = money => {
     money -= 1;
     result[2] += 1;
   }
-  
   result[3] = (result[0] * 30) + (result[1] * 15) + (result[2] * 3);
-  
-  console.log(result);
   return result;
 }
 
@@ -24,7 +21,7 @@ const pumpkinSpice = money => {
 
 Input:
 
-    const money = 9
+const money = 9
     
 Output:
 [1, 1, 1, 48]
