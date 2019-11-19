@@ -28,7 +28,7 @@ const voter_ids = [
 ```
 ### Output:
 ```javascript
-FRAUD!
+'FRAUD!'
 ```
 ### Input:
 ```javascript
