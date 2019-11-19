@@ -1,6 +1,6 @@
 
 const chooseStations = (stations) => {
-  // Code here!
+
   let goodStations = [];
   for (const st of stations){
     if (st[1] >= 20){
@@ -8,7 +8,6 @@ const chooseStations = (stations) => {
       goodStations.push(st[0]);
     }
   }
-  // Remember to return a value!
   return goodStations;
 }
 
