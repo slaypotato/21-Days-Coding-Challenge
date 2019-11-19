@@ -1,5 +1,5 @@
 const whereCanIPark = (spots, vehicle) => {
-  // Code here!
+
   var x = 0;
   var y = 0;
   
