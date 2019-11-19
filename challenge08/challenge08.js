@@ -1,5 +1,5 @@
 const smartGarbage = (trash, bins) => {
-    // Code here!
+
     bins[trash] += 1;
     return bins;
 }
