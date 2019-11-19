@@ -1,5 +1,5 @@
 const countTickets = (tickets) => {
-  // Code here!
+
   var response = {
     red:0,
     green:0,
@@ -14,7 +14,7 @@ const countTickets = (tickets) => {
 }
 
 const bestOdds = (tickets, raffleEntries) => {
-  // Code here!
+
   var myTickets = countTickets(tickets);
   var lowest;
   var lowestName;
