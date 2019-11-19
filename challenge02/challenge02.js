@@ -1,5 +1,5 @@
 const interviewAnswer = (topic) => {
-  // Code here!
+  
   var response = {
     'arts funding':'We\'ll have to get creative!',
     'economy': 'Time is money.',
@@ -11,7 +11,7 @@ const interviewAnswer = (topic) => {
   } else {
     return "QUACK!";
   }
-  // Remember to return a value!
+
 }
 
 
