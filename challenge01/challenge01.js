@@ -17,8 +17,8 @@
       'Fox Nest'
     ];
 	
-	const doorToDoor = (volunteers, neighbourhoods) => {
-    // Code here!
+    const doorToDoor = (volunteers, neighbourhoods) => {
+    
     var totalVolunteers = volunteers.length;
     var totalNeighbourhoods = neighbourhoods.length;
     
@@ -26,4 +26,4 @@
     
     return Math.floor(result);
 	
-	//output = 2
+//output = 2
