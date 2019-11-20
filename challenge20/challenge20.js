@@ -1,5 +1,3 @@
-// Use the value below whenever you need the value of Pi
-
 const PI = 3.14159 
 
 const sphereVolume = function (radius) {
@@ -15,7 +13,6 @@ const prismVolume = function (height, width, depth) {
 }
 
 const totalVolume = function (solids) {
-  //console.log(solids);
   var total = 0;
   for(var obj of solids){
     switch(obj["type"]){
@@ -26,7 +23,6 @@ const totalVolume = function (solids) {
       case 'prism': total += prismVolume(obj["height"],obj["width"],obj["depth"]);
                     break;
     } 
-    //console.log(obj["type"]+"' "+total);
   }
   return total;
 }
@@ -70,7 +66,7 @@ Input:
 Output:
 60
 Input:
-
+    [
     const largeSphere = {
       type: 'sphere',
       radius: 40
