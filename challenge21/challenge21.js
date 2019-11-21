@@ -1,5 +1,5 @@
 const chooseRecipe = function(bakeryA, bakeryB, recipes) {
-  // Code here!
+
   var recipesA = checkBakery(bakeryA,recipes);
   var recipesB = checkBakery(bakeryB,recipes);
   
