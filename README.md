@@ -1,3 +1,5 @@
+![Logo](lighthouselab_challenge.png)
+
 # 21 Days Coding Challenge
 by Lighthouse Labs
 
